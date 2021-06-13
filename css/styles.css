@@ -23,3 +23,71 @@
     height: auto;
 }
 
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+section{
+    padding: 0px 0;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 2px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home{    
+    background-image: url("https://netstorage-tuko.akamaized.net/images/cdab58b042b70a6a.jpg?imwidth=900");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    display: flex;     
+    height: 100px;
+    color:red;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.home .max-width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+    text-decoration: yellow;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    text-decoration: yellow;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    text-decoration: yellow;
+}
+.home .home-content a{
+    display: inline-block;
+    background: green;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 26px;
+    border: 2px solid green;
+    
+}
+.home .home-content a:hover{
+    color: blue;
+    background: green;
+}
