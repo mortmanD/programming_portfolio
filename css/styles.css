@@ -139,15 +139,19 @@ section .subtitle{
 .skills ul,li,.subtitle{
  background-color: wheat;
 }
+.edubackground{
+    border: tomato 10px;
+}
 .edubackground column{
        float: left;
+       width: 50%;
        padding-left: 110px;
 }
 .edubackground ul,li{
     background-color: transparent;
 }
 .edubackground img{
-    height: 250px;
+    height: 200px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
@@ -155,4 +159,18 @@ section .subtitle{
 .edubackground{
     align-items: center;
     padding-left: 30px;
+}
+.portifolio .max-width{
+width: 100%;
+}
+.portifolio column{
+        float: left;
+        width: 50%;
+        
+}
+.portifolio img{
+height: 100px;
+width: 100px;
+
+    
 }
