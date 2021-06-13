@@ -40,6 +40,15 @@ section .title{
     padding-bottom: 2px;
     font-family: 'Ubuntu', sans-serif;
 }
+section .subtitle{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
 .home{    
     background-image: url("https://netstorage-tuko.akamaized.net/images/cdab58b042b70a6a.jpg?imwidth=900");
     background-repeat: no-repeat;
@@ -55,7 +64,7 @@ section .title{
 }
 .home .max-width{
   width: 100%;
-  display: flex;
+  
 }
 .home .max-width .row{
   margin-right: 0;
@@ -113,4 +122,12 @@ section .title{
 .about .about-content .right p{
     text-align: left;
     
+}
+.skills .max-width{
+    width: 100%;
+       
+}
+.skills column{
+    width: 33.33%;
+    float: left;
 }
