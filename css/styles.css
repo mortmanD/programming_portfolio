@@ -139,3 +139,20 @@ section .subtitle{
 .skills ul,li,.subtitle{
  background-color: wheat;
 }
+.edubackground column{
+       float: left;
+       padding-left: 110px;
+}
+.edubackground ul,li{
+    background-color: transparent;
+}
+.edubackground img{
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.edubackground{
+    align-items: center;
+    padding-left: 30px;
+}
