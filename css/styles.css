@@ -131,3 +131,11 @@ section .subtitle{
     width: 33.33%;
     float: left;
 }
+.skills ul li {
+    list-style: none;    
+
+}
+
+.skills ul,li,.subtitle{
+ background-color: wheat;
+}
